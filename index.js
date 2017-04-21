@@ -36,7 +36,7 @@ var handlers = {
  // exports.handler = function(event, context, callback) {
  //      var alexa = Alexa.handler(event, context);
  //      alexa.registerHandlers(handlers); //You can also register multiple handler objects at once alexa.registerHandlers(handlers, handlers2, handlers3, ...);
-  };
+ // };
 
 // use the execute function from the alexa object to run your skill's logic.
   exports.handler = function(event, context, callback) {
