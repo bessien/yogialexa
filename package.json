@@ -1,31 +1,17 @@
 {
-  "name": "alexa-sdk",
+  "name": "yogi-alexa",
   "version": "1.0.9",
   "description": "Alexa Skill SDK for Node.js",
   "main": "index.js",
   "contributors": [
-    {
-      "name": "Diego Benitez",
-      "email": "diegoben@amazon.com"
-    },
-    {
-      "name": "Yang Zhang",
-      "email": "ygzg@amazon.com"
-    },
-    {
-      "name": "Brendan Clement",
-      "email": "clebrend@amazon.com"
-    },
-    {
-      "name": "Leandro Pascual",
-      "email": "leandrop@amazon.com"
-    },
-    {
-      "name": "Krish Furia",
-      "email": "krishf@amazon.com"
-    }
+    "Diego Benitez <diegoben@amazon.com>",
+    "Yang Zhang <ygzg@amazon.com>",
+    "Brendan Clement <clebrend@amazon.com>",
+    "Leandro Pascual <leandrop@amazon.com>",
+    "Krish Furia <krishf@amazon.com>"
   ],
   "dependencies": {
+    "alexa-sdk": "^1.0.9",
     "aws-sdk": "^2.4.7",
     "i18next": "^3.4.1",
     "i18next-sprintf-postprocessor": "^0.2.2"
